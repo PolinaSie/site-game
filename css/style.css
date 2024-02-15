@@ -24,6 +24,7 @@ a:link {
     src: url(..//..//fonts/Pixelify_Sans/static/PixelifySans-Regular.ttf);
 }
 
+
 body {
     overflow-x: hidden;
     background-color: rgb(255, 237, 221);
@@ -260,7 +261,7 @@ a, li, .navbar {
     max-width: 700px;
 }
 
-.text_2 {
+.text_2 .span-1{
     position: relative;
     top: 30px;
     font-size: 20px;
@@ -279,7 +280,7 @@ a, li, .navbar {
     width: 100vw;
 }
 
-.box_left .section-left {
+.box_left .section_left {
     position: relative;
     left: 200px;
     border: 1.5px solid rgb(255, 248, 239);
@@ -289,8 +290,14 @@ a, li, .navbar {
     width: 350px;
     filter: drop-shadow(5px 6px 5px rgb(199, 186, 166));
 }
+.container_width {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    padding: 30px 30px;
+}
 
-.box_right .section-right {
+.box_right .section_right {
     position: relative;
     right: 200px;
     border: 1.5px solid rgb(255, 248, 239);
@@ -305,4 +312,60 @@ input {
     position: relative;
     top: 170px;
 } */
+
+.box_head-selection {
+    position: relative;
+    display: flex;
+}
+
+.box_head-selection-left {
+    position: relative;
+    /* padding: 40px 40px; */
+}
+.img_selection-left {
+    border: 8px solid rgb(255, 244, 229);
+    border-radius: 20px;
+    filter: drop-shadow(5px 6px 5px rgb(199, 186, 166));
+}
+
+.box_head-selection-right {
+    position: relative;
+    /* padding-top: 70px; */
+    /* padding-right: 80px; */
+    min-width: 200px;
+
+}
+.text_head {
+    font-size: 20px;
+    display: ;
+}
+.text_second {
+
+}
+
+.text_last-block {
+    position: relative;
+    top: 15px;
+    
+}
+
+.link_social {
+    position: relative;
+    display: flex;
+    top: 35px;
+    justify-content: center;
+}
+.link_app-box {
+    position: relative;
+    padding-right: 15px;
+    width: 135px;
+    margin: 9px;
+}
+.link_google-box {
+    position: relative;
+    padding-left: 10px;
+    margin: 9px;
+    width: 140px;
+}
+
 
