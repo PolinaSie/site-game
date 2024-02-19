@@ -41,8 +41,9 @@ body {
 }
 
 .pic-1 {
-    width: 1450px;
-    
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
 }
 
 .header_info {
@@ -101,7 +102,7 @@ a, li, .navbar {
 }
 
 .nav_links-main {
-    color: rgb(132, 45, 30);
+    color: rgb(69, 19, 4);
 }
 
 .slogan_big {
@@ -165,7 +166,7 @@ a, li, .navbar {
 .offer_4 {
     width: 250px;
     height: 330px;
-    background-color: rgb(173, 58, 38);
+    background-color: rgb(19, 48, 18);
 }
 .text_about {
     position: relative;
@@ -219,7 +220,7 @@ a, li, .navbar {
     top: 80px;
     color: #ffffff;
     border: 1.5px solid #ffffff;
-    background-color: #cf3737;
+    background-color: #410a0a;
     padding: 15px 17px;
     max-width: 120px;
     border-radius: 10px;
@@ -227,6 +228,10 @@ a, li, .navbar {
 
 .text_botton :hover {
     filter: drop-shadow(2px 2px 10px rgba(130, 100, 100, 0.5))
+}
+
+.picture {
+    height: 300px;
 }
 
 .develop_picture {
@@ -239,13 +244,13 @@ a, li, .navbar {
 .goast {
     position: relative;
     z-index: 9999999;
-    top: -170px;
-    right: 580px;
+    top: -220px;
+    right: 510px;
 }
 
 .text_main-2 {
     position: relative;
-    height: 100vh;
+    height: 20vh;
     text-align: center;
     color: rgb(94, 34, 34);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -271,16 +276,24 @@ a, li, .navbar {
     line-height: 1.5;
 }
 
-.box_main {
+.background_image {
+    position: relative;
+    top: 150px;
+    filter: drop-shadow(10px 15px 100px rgb(32, 254, 16));
+    z-index: 1;
+}
+
+.box_main-top {
     position: relative;
     display: flex;
     justify-content: space-between;
-    top: 150px;
+    top: -790px;
     height: 400px;
     width: 100vw;
+    z-index: 99999;
 }
 
-.box_left .section_left {
+.box_left .section_left, .box_right .section_right {
     position: relative;
     left: 200px;
     border: 1.5px solid rgb(255, 248, 239);
@@ -288,30 +301,20 @@ a, li, .navbar {
     border-radius: 20px;
     height: 350px;
     width: 350px;
-    filter: drop-shadow(5px 6px 5px rgb(199, 186, 166));
+    filter: drop-shadow(3px 4px 3px rgb(199, 186, 166));
 }
+
+.box_right {
+    position: relative;
+    right: 400px;
+}
+
 .container_width {
     position: relative;
     width: 350px;
     height: 350px;
     padding: 30px 30px;
 }
-
-.box_right .section_right {
-    position: relative;
-    right: 200px;
-    border: 1.5px solid rgb(255, 248, 239);
-    background-color: rgb(255, 248, 239);
-    border-radius: 20px;
-    height: 350px;
-    width: 350px;
-    filter: drop-shadow(5px 6px 5px rgb(199, 186, 166));
-}
-/* 
-input {
-    position: relative;
-    top: 170px;
-} */
 
 .box_head-selection {
     position: relative;
@@ -320,52 +323,80 @@ input {
 
 .box_head-selection-left {
     position: relative;
-    /* padding: 40px 40px; */
 }
 .img_selection-left {
     border: 8px solid rgb(255, 244, 229);
     border-radius: 20px;
-    filter: drop-shadow(5px 6px 5px rgb(199, 186, 166));
+    filter: drop-shadow(4px 5px 4px rgb(222, 210, 193));
 }
 
 .box_head-selection-right {
     position: relative;
-    /* padding-top: 70px; */
-    /* padding-right: 80px; */
+    top: 40px;
     min-width: 200px;
-
+    text-align: left;
+    padding-left: 20px;
 }
 .text_head {
+    position: relative;
+    font-family: PixelifySans_c;
     font-size: 20px;
-    display: ;
+    font-weight: 800px;
 }
 .text_second {
-
+    
 }
 
 .text_last-block {
     position: relative;
-    top: 15px;
-    
+    top: 25px;
+    font-size: 15px;
+    font-weight: 100;
 }
 
 .link_social {
     position: relative;
     display: flex;
-    top: 35px;
+    top: 55px;
     justify-content: center;
 }
 .link_app-box {
     position: relative;
     padding-right: 15px;
     width: 135px;
-    margin: 9px;
+    margin: 8px;
 }
 .link_google-box {
     position: relative;
     padding-left: 10px;
-    margin: 9px;
+    margin: 8px;
     width: 140px;
 }
 
+
+.box_main-bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: -590px;
+    height: 400px;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.box_bottom-left .box_bottom-right {
+    position: relative;
+    top: 300px;
+}
+
+.box_bottom-left .section_bottom-left {
+    position: relative;
+    left: 200px;
+    border: 1.5px solid rgb(255, 248, 239);
+    background-color: rgb(255, 248, 239);
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+    filter: drop-shadow(3px 4px 3px rgb(199, 186, 166));
+}
 
