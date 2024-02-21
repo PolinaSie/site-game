@@ -180,9 +180,8 @@ a, li, .navbar {
 }
 .box_pack-first {
     position: relative;
-    
 }
-.pack_text {
+.pack_img{
     position: relative;
     font-size: 15px;
 }
