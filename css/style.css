@@ -31,17 +31,19 @@ body {
     /* font-family: PixelifySans_c; */
 }
 
+
 .header {
     position: relative;
-    height: 150vh;
+    height: 100vh;
 }
 
+
 .container {
-    
+    height: 100vh;
 }
 
 .pic-1 {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
 }
@@ -128,6 +130,10 @@ a, li, .navbar {
     letter-spacing: 4px;
 }
 
+.link_box {
+    position: relative;
+    top: 0px;
+}
 .link_app {
     position: relative;
     top: -550px;
@@ -139,9 +145,15 @@ a, li, .navbar {
     left: 280px;
 }
 
+.game_pack {
+    position: relative;
+    top: -90px;
+    width: 100%;
+    height: 400px;
+}
+
 .grid {
     position: relative;
-    top: -380px;
     padding-left: 100px;
     gap: 3rem;
     display: grid;
@@ -161,6 +173,18 @@ a, li, .navbar {
 .offer_1, .offer_2, .offer_3, .offer_4 {
     border-radius: 30px;
     border: 1px solid #fff
+}
+
+.game_pack-first {
+    position: relative;
+}
+.box_pack-first {
+    position: relative;
+    
+}
+.pack_text {
+    position: relative;
+    font-size: 15px;
 }
 
 .offer_4 {
